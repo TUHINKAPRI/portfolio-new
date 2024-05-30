@@ -1,9 +1,10 @@
-import Technology from "./Technology";
-import AboutMe from "./AboutMe";
-import Projects from "./Projects";
-import Contact from "./Contact";
-import Education from "./Education";
+import React from "react";
 
+const Education = React.lazy(() => import("./Education"));
+const AboutMe = React.lazy(() => import("./AboutMe"));
+const Contact = React.lazy(() => import("./Contact"));
+const Projects = React.lazy(() => import("./Projects"));
+const Technology = React.lazy(() => import("./Technology"));
 function Main() {
   return (
     <>

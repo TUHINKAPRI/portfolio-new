@@ -16,14 +16,14 @@ function Education() {
                     <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
                       {ele?.time}
                     </time>
-                    <div className="text-xl font-bold text-slate-900">
+                    <div className="sm:text-xl  font-bold text-slate-900">
                       {ele?.name}
                     </div>
                   </div>
 
-                  <div className="text-slate-500">{ele?.institute}</div>
-                  <div className="text-slate-500">
-                    <span className="me-2">Grade</span> {ele?.marks}
+                  <div className="text-slate-500 text-sm sm:text-[1rem]  ">{ele?.institute}</div>
+                  <div className="text-slate-500 text-sm">
+                    <span className=" text-sm sm:text-base   me-2">Grade</span> {ele?.marks}
                   </div>
                 </div>
               ))}

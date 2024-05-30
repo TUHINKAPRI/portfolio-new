@@ -13,7 +13,7 @@ function Contact() {
           <img src="victory.png" alt="" className="w-7 inline h-7" />
         </span>
       </p>
-      <div className="flex gap-[150px] ms-12 items-center">
+      <div className="flex flex-wrap gap-x-[150px] gap-y-10 ms-12 items-center">
         <div className="flex gap-2 items-center">
           <img src="location.png" alt="" className="w-10 h-10 inline " />
 
